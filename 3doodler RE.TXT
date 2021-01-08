@@ -1,0 +1,35 @@
+microcontroller pins: 
+
+1: VCC 5.05V
+2: pulled to ground if switch is back (off)
+3: low if switch is forward (ABS mode)
+4: 	icsp, not used in circuit
+5: heater pwm 1khz active high
+6: 2.5V reference for adc 
+7: rear switch
+8: fan pwm 200Hz 20% duty
+9: extruder active low (high = backward)
+10: red led active low
+11: green led active low 
+12: blue led active low
+13: extruder forwards active high 600Hz 50% fast 20% slow
+14: front switch
+15: hot end temperature. lower=hotter. pla = 1.51V, abs = 1.24V
+16: gnd
+
+
+new part pinout
+1: extruder fore C4
+2: extruder aft B5
+3: fan C0
+4: green B7
+5: red B6
+6: blue C7
+7: fast switch C5
+8: slow switch A2
+9: temp switch A5
+10: heater C1 pwm3
+11: hot end temperature A4 AN3
+12: extruder hall effect C3
+13: cold end temperature C2 AN6
+
